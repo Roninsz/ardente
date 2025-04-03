@@ -8,3 +8,9 @@ html, body {
   width: 100vw;
   height: 100vh;
 }
+
+:root {
+  --c1: #fa420a;
+  --c2: #1e1e1e;
+  --c3: #e3e9ff;
+}
