@@ -1,0 +1,11 @@
+.social-links-container {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 48px;
+    margin-top: 20px;
+}
+
+.social-links-container img {
+    width: 48px;
+}

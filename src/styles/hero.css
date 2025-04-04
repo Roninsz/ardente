@@ -59,6 +59,13 @@
     font-weight: 600;
 }
 
+.bottom-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
 .slide-in span {
     display: inline-block;
     transform: translateX(-100%);

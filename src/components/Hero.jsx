@@ -2,6 +2,8 @@ import '../styles/hero.css'
 import seta from '../assets/seta.png'
 import logoBG from '../assets/logoBackground.png'
 import { useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
+import SocialL from './SocialLinks';
 
 export default function Hero() {
     const imageRef = useRef(null);
@@ -34,13 +36,16 @@ export default function Hero() {
                 <span id="sp1">Identidades de Marca para negócios</span><br/>
                 <span>Inovadores e tecnológicos</span>
             </h1>
-            <div id="hero" className="CTA-conteiner">
-                <img src={seta} alt=""/>
-                <a href="#destaques" className="slide-in">
-                    <span>FORJE</span><br/>
-                    <span>SUA</span><br/>
-                    <span>MARCA</span>
-                </a>
+            <div className="bottom-container">
+                <div id="hero" className="CTA-conteiner">
+                    <img src={seta} alt=""/>
+                    <Link to="/contact" className="slide-in">
+                        <span>FORJE</span><br/>
+                        <span>SUA</span><br/>
+                        <span>MARCA</span>
+                    </Link>
+                </div>
+                <SocialL />
             </div>
         </div>
     );
