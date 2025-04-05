@@ -1,4 +1,67 @@
 .contact-section {
     width: 100%;
     height: 100%;
+    padding: 0px 180px 48px 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.form-container {
+    height: calc(100% - (192px + 48px));
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+
+    font-family: input-mono, monospace;
+    font-weight: 100;
+}
+.form-container input {
+    padding: 8px 24px;
+}
+
+.form-container h1 {
+    font-weight: 600;
+    color: var(--c1);
+}
+
+.nome-empresa-container {
+    display: flex;
+    gap: 32px;
+}
+.nome-empresa-container .form-item {
+    width: 100%;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-item input {
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid var(--c2);
+    border-radius: 255px;
+
+    font-family: input-mono, monospace;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.form-item textarea {
+    resize: none;
+    width: 100%;
+    min-height: 160px;
+    height: 160px;
+    padding: 16px 24px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid var(--c2);
+    border-radius: 16px;
+
+    font-size: 24px;
+    font-weight: 100;
 }
