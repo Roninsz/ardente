@@ -8,8 +8,9 @@ export default function Header() {
         <header className='header'>
             <img src={simbolo} alt="Logo" className='simbolo'/>
             <img src={logo} alt="Logo" className='logo'/>
-            <div className='contact-conteiner'>
-                <Link to="/" className='contact'>Home</Link>
+            <div className='nav-container'>               
+                <Link to="/portfolio" className='nav-link'>Portfolio</Link>
+                <Link to="/" className='nav-link'>Home</Link>
             </div>
 
         </header>

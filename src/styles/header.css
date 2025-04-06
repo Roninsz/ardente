@@ -18,21 +18,21 @@
     display: none;
 }
 
-.contact-conteiner {
+.nav-container {
     height: 100%;
     width: auto;
     display: flex;
     align-items: center;
-    
+    gap: 120px;
 }
 
-.contact-conteiner a {
+.nav-link {
     text-decoration: none;
     color: var(--c1);
     font-family: 'input-mono', monospace;
     font-size: 40px;
     font-weight: 600;
 }
-.contact-conteiner a:hover {
+.nav-link:hover {
     color: var(--c2);
 }

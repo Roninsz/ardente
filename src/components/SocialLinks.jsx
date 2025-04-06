@@ -8,16 +8,16 @@ export default function SocialLinks() {
     return(
         <div className="social-links-container">
             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                <img src={instagram} alt="" srcset="" />
+                <img src={instagram} />
             </a>
             <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-                <img src={linkedin} alt="" srcset="" />
+                <img src={linkedin} />
             </a>
             <a href="https://www.behance.net" target="_blank" rel="noopener noreferrer">
-                <img src={behance} alt="" srcset="" />
+                <img src={behance} />
             </a>
             <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
-                <img src={github} alt="" srcset="" />
+                <img src={github} />
             </a>
         </div>
     )
